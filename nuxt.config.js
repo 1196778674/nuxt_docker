@@ -1,6 +1,10 @@
 
 module.exports = {
   mode: 'universal',
+  server: {
+    port: 3000,
+    host: 'docker.nuxt.com',
+  },
   /*
   ** Headers of the page
   */
